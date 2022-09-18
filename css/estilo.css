@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(14,133,102,1) 84%, rgba(96,96,99,1) 100%);
+    padding: 25px 0;
+    text-align: center;
+    font-weight: 100;
+}
+    
