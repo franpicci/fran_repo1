@@ -5,18 +5,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
-    <title>Document</title>
+    <title>DESAFIO GIT Y GITHUB</title>
 </head>
-<body>
-    <h1>ESTE ES UN PASO A PASO PARA GIT Y GITHUB</h1>
-     
-    <P>mi repositorios</P>
+
+
+
+
+    <body>
+    
+        <header>
+            <div class="container"><h1> ESTE ES UN PASO A PASO PARA GIT Y GITHUB muy basico </h1> </div>
+        </header>
+        
+    <P>mi repositorios - va despues</P>
 
     <p>Paso a paso</p>
 
-    <p>Lo primero es el git init </p>
+    <p>
+        
+            
+     <li>1 - Para iniciar en git lo primero es dar inicio con: </li> 
+           -git init
+     <li>2 - Ahora hay que tener una crear un usuario </li>
+              <li> git config --global user.name</li>
+                        <li>Aca va a aparecer nuestro nombre _________</li>
+           <li>    git config --global user.email</li>
+            <li>      Aca va a aparecer nuestro email _________</li>
 
-    <h2>commit dos agregue imagen</h2>
+        <li>Para ver si funciona debemos colocar el siguiente codigo</li>
+          <li> git config user.name (Debe aparecer nuestro nombre) </li>
+          <li>git config user.email (Debe aparecer nuestro email) </li>
+
+          <li>3 - git status: Sirve para ver los archivos de nuestra carpeta/proyecto Ej: index.html </li>
+
+          <li>4 - Para enviar el archivo especifico al siguiente paso se coloca por ej: index.html o page.html si lo hubiera  </li>
+
+    <li> 5 - Ahora si quiero agregar todo el contenido el git que debemos usar es git add . (aclaracion: dejar un espacio entre el add y el punto) </li>
+
+    <li> 6 - Recomandamos usar git status para ver si se agregaron el/los archivos correctamente </li>
+
+   <h2><li> 7- Ahora agreguemos un commit</li></h2>
+        <li>git commit -m "poner aqui dentro por ej primer commit o algo que haga referencia al commit" </li>
+
+         Ahora escribimos en el codigo
+    
+
+    <li>8 - gid add . Para agregar lo que escribimos en el paso anterior </li>
+
+    <li> 9 - git status Recomandamos usar git status para ver si se agregaron el/los archivos correctamente </li>
+    
+    <li>10 - Ahora para cerrar los cambios:
+         git commit </li>
+
+    <h2><li>11 -  En el caso de que queramos regresar atrás </h2>
+        git rm -- cached (Aqui va por ej: index.html) </li>
+
+    <li>12 - git status Recomandamos usar git status para ver si se agregaron el/los archivos correctamente </li>
+
+    <li>13 - git log Sirve para ver los commit enviados en orden </li>
+
+   <li>14 - git log --stat Aca vas a ver la info detallada de cada commit </li>
+
+    <li> 15- Para hacer un cambio a otro commit, primero hay que hacer otro commit en nuestro codigo </li>
+
+    <li>16 - git add . (agregarmos el commit reciente) </li>
+
+    <li>17 - git status  Recomandamos usar git status para ver si se agregaron el/los archivos correctamente </li>
+
+   <li> 18 - git commit -m "agregamos el segundo commit" </li>
+
+    <li>19 - git log vemos si aparecen los cambios guardados </li>
+
+   <h2>Ahora si queremos regresar al primer commit, ¿ Como hago?</h2>
+
+    <li>20 - git log --oneline 
+
+    21 - git checkout (n° de commit reducido)  </li>
+
+     <h2>Como hacemos para ver una  Ramas o branch (es lo mismo rama y branch pero esciribir siempre branch) </h2>
+
+   <li>22 - git branch Para ver cuantas ramas tenemos </li>
+
+   <li>23 - git checkout Ej master (aca va el nombre de la rama que quiero) </li>
+
+    <h3>Bien para crear una rama </h3>
+   
+    <li>
+    24 - git checkout -b (escribir nombre de la rama que queramos crear por EJ ramafooter) </li>
+         
+            <li> Ahora escribir las modificaciones en el footer </li>
+
+    <li>   25 - git status </li>
+    
+     <li> 26 - git add .  </li>
+
+    <li> 27 - git commit -m "inserto por ej texto en footer"</li>
+
+    <li>28 - git status</li>
+    <li> 29- log   asi vemos si aparecen los cambios guardados</li>
+    <h3>Ahora vamos a pasar a la rama master</h3>
+    <li>Primero hay que ver cuantas ramas tenemos</li>
+    <li>30 - git branch</li>
+    <li>31 - git checkout (nombre de la rama)</li>
+    <li>32 - git log para ver los cambios creados</li>
+
+    <h3>Para unir ramas</h3>
+    <li>33 - git merge (nombre de la rama ej: ramafooter</li>
+    <li>34 - git branch</li>
+   
+   
+
+
+
+
+
+
+
+
+
+
+    </p>
+
+    <h2>En este commit  agregue imagen</h2>
 <img src="./assets/git_and_github_logo.png" alt="#">
 
 

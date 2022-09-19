@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(14,133,102,1) 84%, rgba(96,96,99,1) 100%);
-    padding: 25px 0;
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(129,169,190,1) 44%, rgba(253,187,45,1) 100%);
+    padding: 120px ;
     text-align: center;
-    font-weight: 100;
-}
     
+}
+
+ 
+
